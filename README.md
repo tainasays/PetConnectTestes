@@ -21,6 +21,12 @@ Projeto desenvolvido para a disciplina Teste de Software.
 
 ---
 
+### Tests Results
+Cadastrar usuário:
+<img width="983" height="534" alt="image" src="https://github.com/user-attachments/assets/ea4041ab-4cd7-4d37-bf23-2b8c6a83d6f9" />
+
+---
+
 Aplicação Java desenvolvida no NetBeans usando Spring Boot. Inclui testes automatizados com JUnit e Mockito.
 
 
