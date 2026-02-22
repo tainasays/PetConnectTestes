@@ -25,7 +25,7 @@ import static org.mockito.Mockito.*;
  * T_3: Validar retorno de mensagem de erro ao informar email já cadastrado 
  * no sistema em cadastro de usuário	
  * T_4: Cadastrar usuário com senha inválida
- * Número total de casos de testes: 11. Número total de testes: 14.
+ * Número total de casos de testes: 11. Número total de testes: 15.
  */
 
 
