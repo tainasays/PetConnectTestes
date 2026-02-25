@@ -14,7 +14,7 @@ Projeto desenvolvido para a disciplina Teste de Software.
 ## Resumo
 | Alunos| Total de casos de teste| Total de testes unitários
 | ------------- | ------ | ------ |
-| Thayna   | 13 | 17 |
+| Thayna   | 13 | 33 |
 | Jorge| 15 | |
 | Elaine   | 12| 12 |
 | Clara |  15 | ❌ |
@@ -23,9 +23,17 @@ Projeto desenvolvido para a disciplina Teste de Software.
 
 ### Tests Results
 Cadastrar usuário:
-<img width="983" height="534" alt="image" src="https://github.com/user-attachments/assets/ea4041ab-4cd7-4d37-bf23-2b8c6a83d6f9" />
 
-Cadastrar pet: 
+<img width="861" height="861" alt="image" src="https://github.com/user-attachments/assets/73653387-5826-4dfb-a363-25f40f4bdab7" />
+
+
+Buscar endereço:
+
+<img width="856" height="222" alt="image" src="https://github.com/user-attachments/assets/1a811018-521e-43e5-9949-53768a4b4dd1" />
+
+
+Cadastrar pet:
+
 <img width="603" height="384" alt="image" src="https://github.com/user-attachments/assets/103955d7-1efa-4cf9-901f-87c62817ce30" />
 
 
