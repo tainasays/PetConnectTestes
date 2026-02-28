@@ -95,7 +95,7 @@ public class UsuarioService {
             throw new IllegalArgumentException("Data de nascimento é obrigatória!");
         }
         if (isNullOrEmpty(usuario.getEmail())) {
-            throw new IllegalArgumentException("Email é obrigatório!");
+            throw new IllegalArgumentException("E-mail é obrigatório!");
         }
         if (isNullOrEmpty(usuario.getCpf())) {
             throw new IllegalArgumentException("CPF é obrigatório!");
@@ -104,7 +104,7 @@ public class UsuarioService {
             throw new IllegalArgumentException("Senha não está de acordo com o padrão solicitado");
         }
         if (isNullOrEmpty(usuario.getNumeroContato())) {
-            throw new IllegalArgumentException("Numero de contato é obrigatório!");
+            throw new IllegalArgumentException("Número de contato é obrigatório!");
         }
         if (isNullOrEmpty(usuario.getCep())) {
             throw new IllegalArgumentException("CEP é obrigatório!");
@@ -122,6 +122,19 @@ public class UsuarioService {
         }
         if (usuario.getCpf().length() != 11) {
             throw new IllegalArgumentException("CPF deve ter 11 dígitos");
+        }
+
+        if (isNullOrEmpty(usuario.getLogradouro())) {
+            throw new IllegalArgumentException("Logradouro é obrigatório!");
+        }
+        if (isNullOrEmpty(usuario.getBairro())) {
+            throw new IllegalArgumentException("Bairro é obrigatório!");
+        }
+        if (isNullOrEmpty(usuario.getCidade())) {
+            throw new IllegalArgumentException("Cidade é obrigatória!");
+        }
+        if (isNullOrEmpty(usuario.getEstado())) {
+            throw new IllegalArgumentException("Estado é obrigatório!");
         }
 
         var senha = usuario.getSenha();
